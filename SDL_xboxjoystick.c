@@ -49,7 +49,7 @@ void USBGetEvents(void);
 #endif
 
 #if defined(FIX_DEADZONE) || defined(FIX_DEADZONE_ALT)
-#define JOYSTICK_DEAD_ZONE 6000
+#define JOYSTICK_DEAD_ZONE 7000
 #define JOYSTICK_MAX 32768
 #define JOYSTICK_TARGET 32000
 #endif
